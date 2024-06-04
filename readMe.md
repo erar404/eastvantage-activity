@@ -7,12 +7,17 @@ Instructions in running in local:
 1. Install python 3.12.1 
 2. Set PATH environment variable for python (if multiple python versions are in the computer)
 3. Create virtual environment using cmd 
-   - cmd code: py -m venv env
+   - cmd code:
+     ```
+     py -m venv env
+     ```
 4. Open the virtual environment. Redirect to the project folder (if not yet) and install requirements.txt
-    - cmd code: 
+    - cmd code:
+      ```
         cmd > call <directory to env>\scripts\activate
         env > cd <directory to project>
         env > pip install -r requirements.txt
+      ```
 5. After the installation of libraries on the virtual environment, Edit the runAPI.bat file, edit line # 3 <directory to env> to the created virtual environment directory
 6. run the bat file and check for logs
 
