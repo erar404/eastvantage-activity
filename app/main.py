@@ -10,7 +10,7 @@ logger = logging.getLogger('activity-logs')
 
 try:
     logger.info('Start Address Book Api')
-    app = FastAPI(title="Eastvantage Application Exam")
+    app = FastAPI(title="Sample Fast API")
     app.include_router(address_router)
     register_tortoise(
         app=app,
